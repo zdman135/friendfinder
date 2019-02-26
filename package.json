@@ -1,0 +1,31 @@
+{
+  "engines": {
+    "node": "9.9.0"
+  },
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "finding friends",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zdman135/friendfinder.git"
+  },
+  "keywords": [
+    "friend",
+    "finder"
+  ],
+  "author": "Rich Jen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zdman135/friendfinder/issues"
+  },
+  "homepage": "https://github.com/zdman135/friendfinder#readme",
+  "dependencies": {
+    "array-sum": "^1.0.0",
+    "express": "^4.16.4"
+  }
+}
