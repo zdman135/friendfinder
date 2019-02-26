@@ -20,7 +20,9 @@ module.exports = function(app) {
                 };
               });              
         }
-        
+        if(typeof(userMatchedIndex[0]) === 'undefined') {
+            userMatchedIndex[0] = friendsData[Math.floor(Math.random()*friendsData.length)];
+        }
         res.json({
             matchedUser: userMatchedIndex[0]
         })
